@@ -39,8 +39,11 @@ alias ..="cd .."
 # Fix dumb npm sudo shit #
 alias fuck='sudo "$BASH" -c "$(history -p \!\!)"'
 
+# Lazy googling #
+alias google='open http://www.google.com/search?q='
+
 # Custom bash prompt via kirsle.net/wizards/ps1.html
-export PS1="├⎯⎯⎯[\[$(tput setaf 6)\]\u\[$(tput setaf 7)\]@\[$(tput setaf 3)\]\H\[$(tput setaf 7)\]\[$(tput setaf 2)\]\w\[$(tput setaf 7)\]]\[$(tput setaf 2)\] \\$ \[$(tput sgr0)\]"
+export PS1="]---[\[$(tput setaf 6)\]\u\[$(tput setaf 7)\]@\[$(tput setaf 3)\]\H\[$(tput setaf 7)\]\[$(tput setaf 2)\]\w\[$(tput setaf 7)\]]\[$(tput setaf 2)\] \\$ \[$(tput sgr0)\]"
 
 # Color ls output #
 export LSCOLORS="exfxcxdxcxegedabagacad"
